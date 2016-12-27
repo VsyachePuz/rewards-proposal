@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8" />
+<title>Notes about rewards</title>
+</head>
+<body>
+
+<table><tr><td style="vertical-align:top;">
+<h1>Notes about rewards</h1>
+</td><td style="vertical-align:top;">
+&nbsp;
+<br />
+&nbsp;
+</td></tr></table>
+
+Towards using a .rewards config file
+<br />
+at the root of the repository with any mappings for author -&gt; address;
+<br />
+signed using bitcoin's message signing.
+<br />
+Additionally; that commit could be signed by gpg to verify the GPG key too.
+<br />
+<br />
+Most currencies IIRC use ECDSA which means that
+<br />
+they need to use multiple signatures to implement that;
+<br />
+whereas ripple and few others use EdDSA and may perform a true distributed signature (t, n) schnoor sig.
+<br />
+<br />
+It's bad enough to integrate into a protocol like git, with optional pgp signatures.
+<br />
+auditory of web is more broad, so gateway is necessary
+<br />
+<br />
+smart contracts could improve on this by defining the interface that the bot invokes.
+<br />
+Such a contract could limit the max pay out per some time period. I.e. 500 tokens per hour
+<br />
+<br />
+git config --local user.email “myemail@gmail.com”
+
+</body>
+</html>
